@@ -1,11 +1,11 @@
 ## Restaurant Name Generator Project RAG project
 ### ollama x langchain x streamlit x llm x RAG
 
-![](images/screenshot.png){width=5000}
+![](images/screenshot.png)
 
 **Summary**
-1. Generate a name of a restaurant based on the `name` of the cuisine - name - Italan, Mexian, Nepali, Indian etc.
-2. Generate `10 menu items` based on the `name` of the restaurant
+1. Generate a name of a restaurant based on the `name` of the cuisine - name - Italian, Mexian, Nepali, Indian etc.
+2. Generate `10 menu items` based on a `name` of the restaurant
 
 **Setup**
 1. Ollama
@@ -24,5 +24,7 @@ run the ollama in background
    ```
    streamlit run app.py
    ```
+   
+   visit `http://localhost:8501` or the link shown in the terminal to run the app.
 
 Note: This project is inspired from the Codebasic youtube channel tutorial.
